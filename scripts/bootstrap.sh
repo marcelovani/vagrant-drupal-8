@@ -6,9 +6,9 @@
 
 echo ""
 echo "Bootstrap is installing drupal 8 on virtual box with vagrant..."
-echo "Cloning repository https://github.com/delphian/vagrant-drupal-8..."
+echo "Cloning repository https://github.com/marcelovani/vagrant-drupal-8..."
 echo ""
-git clone --recursive git://github.com/delphian/vagrant-drupal-8.git
+git clone --recursive git://github.com/marcelovani/vagrant-drupal-8.git
 cd vagrant-drupal-8/scripts
 ./install.sh
 echo "Bootstrap has finished installation."
